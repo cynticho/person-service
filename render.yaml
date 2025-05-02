@@ -1,7 +1,7 @@
 services:
   - type: web
     name: person-service
-    env: java
+    env: docker
     javaVersion: "17"
     buildCommand: "mvn clean install"
     startCommand: "java -jar target/*.jar"
